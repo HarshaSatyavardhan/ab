@@ -1,0 +1,19 @@
+defaults:
+  - _self_
+  - data: poas
+  - encoder: antifold
+  - pooling: cdr_mean
+  - projector: mlp
+  - model: decoder_150m
+  - training: stage_a
+  - inference: default
+  - eval: default
+
+seed: 42
+device: cuda
+out_dir: outputs/${now:%Y-%m-%d_%H-%M-%S}
+log_level: INFO
+wandb:
+  enabled: false
+  project: abllava
+  entity: null

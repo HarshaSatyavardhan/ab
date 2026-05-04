@@ -1,0 +1,8 @@
+name: qformer
+d_in: 512
+d_out: 1024
+d_q: 768
+n_queries: 32
+n_layers: 6
+n_heads: 12
+dropout: 0.1

@@ -1,0 +1,12 @@
+checkpoint_path: ???
+n_samples: 5000
+metrics: [perplexity, recovery, diversity, naturalness, structure, developability]
+naturalness_models: [ablang2, iglm, p_iggen]
+refold:
+  enabled: true
+  model: abodybuilder2
+tap:
+  enabled: true
+oasis:
+  enabled: true
+output_path: outputs/eval_report.json

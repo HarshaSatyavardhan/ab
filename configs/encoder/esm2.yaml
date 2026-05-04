@@ -1,0 +1,5 @@
+name: esm2
+model_name: facebook/esm2_t33_650M_UR50D
+embedding_dim: 1280
+device: cuda
+cache_dir: data_cache/poas/embeddings/esm2

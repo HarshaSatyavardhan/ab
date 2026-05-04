@@ -1,0 +1,6 @@
+enabled: true
+r: 8
+alpha: 16
+dropout: 0.05
+target_modules: [q_proj, k_proj, v_proj, o_proj]
+bias: none

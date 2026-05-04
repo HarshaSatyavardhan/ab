@@ -1,0 +1,12 @@
+checkpoint_path: ???
+target_pdb: ???
+n_samples: 100
+temperature: 0.8
+top_p: 0.9
+top_k: null
+do_sample: true
+max_new_tokens: 260
+output_path: outputs/generated.fasta
+cdr_infill:
+  enabled: false
+  cdr: H3
