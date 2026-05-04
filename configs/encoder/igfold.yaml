@@ -1,0 +1,5 @@
+name: igfold
+embedding_dim: 512
+checkpoint_path: null
+device: cuda
+cache_dir: data_cache/poas/embeddings/igfold

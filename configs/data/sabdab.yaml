@@ -1,0 +1,16 @@
+name: sabdab
+raw_dir: data_cache/sabdab/raw
+processed_dir: data_cache/sabdab/processed
+pdb_dir: data_cache/sabdab/pdbs
+embedding_cache_dir: data_cache/sabdab/embeddings
+species: [human]
+min_length: 100
+max_length: 150
+min_h3_len: 3
+max_h3_len: 35
+max_n_residues: 260
+max_seq_len: 320
+numbering_scheme: imgt
+batch_size: 8
+num_workers: 4
+pin_memory: true

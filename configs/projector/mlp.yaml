@@ -1,0 +1,5 @@
+name: mlp
+d_in: 512
+d_out: 1024
+d_hidden: 4096
+dropout: 0.0
